@@ -88,6 +88,9 @@ use {
     requires = {{"nvim-lua/popup.nvim"}, {"nvim-lua/plenary.nvim"}}, {"BurntSushi/ripgrep"}, {"sharkdp/fd"},
 --    config = get_config("telescope")
 }
+
+use {"nvim-telescope/telescope-file-browser.nvim"}
+
 -- Syntax highlighting
 use {
     "nvim-treesitter/nvim-treesitter",

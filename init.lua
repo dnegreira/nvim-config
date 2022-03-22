@@ -12,3 +12,7 @@ require'lspconfig'.gopls.setup {
 -- Setup nvim-cmp.
 require'neogit'.setup {}
 
+-- setup telescope-file-browser
+require'telescope'.setup {}
+
+require'telescope'.load_extension "file_browser"
